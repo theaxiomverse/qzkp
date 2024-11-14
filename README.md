@@ -113,12 +113,7 @@ The implementation includes several optimizations:
 
 ## Documentation
 
-Detailed documentation is available in the `docs/` directory. To build the documentation:
-
-```bash
-cd docs
-make html
-```
+coming soon
 
 ## License
 
