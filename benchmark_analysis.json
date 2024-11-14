@@ -1,0 +1,27 @@
+{
+    "proof_generation": {
+        "mean_throughput": 1349.8993279600384,
+        "max_throughput": 1366.348843645772,
+        "optimal_batch_size": 500,
+        "mean_memory_usage": 30.056640625
+    },
+    "verification": {
+        "mean_throughput": 3399.392459102213,
+        "max_throughput": 3798.4916715910354,
+        "optimal_batch_size": 500,
+        "mean_memory_usage": 1.359375,
+        "success_rate": 1.0
+    },
+    "optimal_configuration": {
+        "batch_size": 500,
+        "thread_count": 32,
+        "gpu_recommendation": "CPU-only mode sufficient"
+    },
+    "performance_tips": [
+        "Optimal batch size for proof generation: 500",
+        "Optimal batch size for verification: 500",
+        "Expected throughput: 1366.35 proofs/sec",
+        "Expected memory usage: 30.06 MB",
+        "CPU-only mode sufficient"
+    ]
+}
